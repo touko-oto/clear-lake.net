@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 初期値 */
+body {
+  background: #dee8e9;
+}
+
+.light-theme {
+  background: #dee8e9;
+  color: #333333;
+}
+
+.dark-theme {
+  background: #0c0125;
+  color: #dddddd;
+}
+
+ul {
+  padding-left: 5%;
+  padding-bottom: 2%;
+}
+
+li {
+  list-style-type: circle;
+  padding: 5px 0;
+  margin: 10 auto;
+}
+
+header {
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #9ae2dc;
+  text-align: center;
+}
+
+.hf-light-theme {
+  background-color: #9ae2dc;
+  color: #333333;
+}
+
+.hf-dark-theme {
+  background-color: #0d344b;
+  color: #dddddd;
+}
+
+header .headline {
+  font-size: 32px;
+}
+
+.mode {
+  padding: 10px;
+}
+
+.main {
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 12%;
+  padding-bottom: 2%;
+  max-width: 800px;
+  text-align: center;
+}
+
+section {
+  width: 100%;
+  padding: 5px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section .name {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+section .prof_image {
+  padding-bottom: 0%;
+}
+
+section .description {
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section .sns {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+section .link {
+  padding-left: 10%;
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #9ae2dc;
+}
